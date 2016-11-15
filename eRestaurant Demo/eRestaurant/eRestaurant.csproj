@@ -51,12 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\eRestaurantReportController.cs" />
     <Compile Include="BLL\MenuController.cs" />
     <Compile Include="Entities\Bill.cs" />
     <Compile Include="Entities\BillItem.cs" />
     <Compile Include="Entities\DTOs\CategoryWithItems.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategory.cs" />
+    <Compile Include="Entities\Pocos\CategoryMenuItems.cs" />
     <Compile Include="Entities\Pocos\MenuItem.cs" />
     <Compile Include="Entities\Recipe.cs" />
     <Compile Include="Entities\RecipeIngredient.cs" />
